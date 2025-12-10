@@ -1,0 +1,91 @@
+body {
+    background-color: #f0f8ff;
+    color: #333333;
+    font-family: Verdana, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+h1, h2 {
+    text-align: center;
+    color: #000000;
+}
+
+p {
+    text-align: justify;
+    line-height: 1.5;
+}
+
+.center-text {
+    text-align: center;
+}
+
+a {
+    color: #0056b3;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background-color: #ccc;
+    margin: 20px 0;
+}
+
+/* Table Styles for Biography */
+table {
+    border-collapse: collapse;
+    width: 95%;
+    margin: 20px auto;
+    background-color: #ffffff;
+}
+
+th, td {
+    border: 1px solid #000;
+    padding: 8px;
+}
+
+th {
+    background-color: #add8e6;
+    text-align: center;
+}
+
+.period-header {
+    text-align: center;
+    font-weight: bold;
+}
+
+.period-start {
+    background-color: #e6e6fa;
+}
+
+.period-peak {
+    background-color: #ffdead;
+}
+
+.period-pause {
+    background-color: #f0e68c;
+}
+
+.period-return {
+    background-color: #98fb98;
+}
+
+/* Image Styles */
+img {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #ddd;
+    padding: 5px;
+    background-color: #fff;
+}
+
+/* Nav Map */
+map area {
+    cursor: pointer;
+}

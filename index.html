@@ -1,40 +1,68 @@
 <!DOCTYPE html>
 <html lang="uk">
+
 <head>
     <meta charset="UTF-8">
     <title>Рік Естлі - Головна</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
-<body bgcolor="#f0f8ff" text="#333333">
-    <font face="Verdana, sans-serif">
-        <h1 align="center">Рік Естлі (Rick Astley)</h1>
-        <p align="center"><i>Британський співак, музикант і автор пісень</i></p>
-        
-        <hr>
-        
-        <p align="center">
-            <a href="biography.html"><b>Біографія (Таблиця)</b></a>
-        </p>
-        
-        <h2>Про виконавця</h2>
-        <p>
-            <b>Річард Пол Естлі</b> (Richard Paul Astley) народився 6 лютого 1966 року. Він став всесвітньо відомим у 1980-х роках завдяки своїм танцювальним поп-хітам. Його унікальний глибокий баритон зробив його пісні впізнаваними з перших нот.
-        </p>
 
-        <p>
-            Найвідоміший хіт Естлі, <b>"Never Gonna Give You Up"</b>, став справжнім феноменом, очоливши чарти в 25 країнах. Пізніше ця пісня отримала друге життя завдяки інтернет-мему "Rickrolling".
-        </p>
+<body>
+    <h1>Рік Естлі (Rick Astley)</h1>
+    <p class="center-text"><i>Британський співак, музикант і автор пісень</i></p>
 
-        <h2 align="center">Ключові досягнення</h2>
-        <ul>
-            <li>Понад 40 мільйонів проданих записів по всьому світу.</li>
-            <li>Перший виконавець, чиї перші 8 синглів потрапили в Топ-10 британського чарту.</li>
-            <li>Лауреат премії MTV Europe Music Award у номінації "Найкращий виконавець в історії" (2008).</li>
-        </ul>
+    <p class="center-text">
+        <a href="index.html">Головна</a> |
+        <a href="biography.html">Біографія</a> |
+        <a href="gallery.html">Галерея</a>
+    </p>
 
-        <hr>
-        <p align="center">
-            &copy; 2025. Фан-сайт Ріка Естлі.
-        </p>
-    </font>
+    <hr>
+
+    <!-- Quick Links (Anchors) -->
+    <p class="center-text">
+        <a href="#about">Про виконавця</a> |
+        <a href="#achievements">Досягнення</a> |
+        <a href="#map_section">Інтерактивна карта</a>
+    </p>
+
+    <h2 id="about">Про виконавця</h2>
+    <p>
+        <b>Річард Пол Естлі</b> (Richard Paul Astley) народився 6 лютого 1966 року. Він став всесвітньо відомим у 1980-х
+        роках завдяки своїм танцювальним поп-хітам. Його унікальний глибокий баритон зробив його пісні впізнаваними з
+        перших нот.
+    </p>
+
+    <p>
+        Найвідоміший хіт Естлі, <b>"Never Gonna Give You Up"</b>, став справжнім феноменом, очоливши чарти в 25 країнах.
+        Пізніше ця пісня отримала друге життя завдяки інтернет-мему "Rickrolling".
+    </p>
+
+    <h2 id="achievements">Ключові досягнення</h2>
+    <ul>
+        <li>Понад 40 мільйонів проданих записів по всьому світу.</li>
+        <li>Перший виконавець, чиї перші 8 синглів потрапили в Топ-10 британського чарту.</li>
+        <li>Лауреат премії MTV Europe Music Award у номінації "Найкращий виконавець в історії" (2008).</li>
+    </ul>
+
+    <hr>
+
+    <h2 id="map_section">Навігація сайтом</h2>
+    <p class="center-text">
+        <img src="img/map.jpg" alt="Навігаційна карта: Біографія та Фотогалерея" usemap="#nav_map" width="600">
+    </p>
+    <map name="nav_map">
+        <!-- Left half goes to Biography -->
+        <area shape="rect" coords="0,0,300,400" href="biography.html" alt="Біографія">
+        <!-- Right half goes to Gallery -->
+        <area shape="rect" coords="301,0,600,400" href="gallery.html" alt="Фотогалерея">
+    </map>
+
+    <hr>
+    <p class="center-text">
+        &copy; 2025. Фан-сайт Ріка Естлі.<br>
+        Зв'язатися з автором: <a href="mailto:fan@rickastley.com">fan@rickastley.com</a>
+    </p>
 </body>
+
 </html>

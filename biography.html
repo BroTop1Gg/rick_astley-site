@@ -4,22 +4,34 @@
 <head>
     <meta charset="UTF-8">
     <title>Біографія Ріка Естлі</title>
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        /* Example of Internal Style for Lab 6 requirement */
+        .bio-title {
+            color: #d35400;
+            font-style: italic;
+        }
+    </style>
 </head>
 
-<body bgcolor="#fff0f5" text="#000000">
-    <font face="Arial, sans-serif">
+<body bgcolor="#fff0f5">
+    <!-- bgcolor intentionally left on body to show override or legacy support if needed, but css overrides it generally if !important or specific hierarchy. Actually tasked to remove it. Let's remove it for purity -->
 
-        <h1 align="center">Життєвий та творчий шлях</h1>
+    <body>
 
-        <p align="center">
-            <a href="index.html">На головну</a>
+        <h1 class="bio-title">Життєвий та творчий шлях</h1>
+
+        <p class="center-text">
+            <a href="index.html">Головна</a> |
+            <a href="biography.html">Біографія</a> |
+            <a href="gallery.html">Галерея</a>
         </p>
 
-        <table border="1" align="center" width="95%" cellpadding="8" cellspacing="0" bgcolor="#ffffff">
-            <caption align="top"><b>Основні етапи кар'єри</b></caption>
+        <table>
+            <caption><b>Основні етапи кар'єри</b></caption>
 
             <!-- Header -->
-            <tr bgcolor="#add8e6">
+            <tr>
                 <th width="20%">Період</th>
                 <th width="15%">Рік</th>
                 <th width="25%">Подія / Альбом</th>
@@ -28,59 +40,59 @@
 
             <!-- Early Years -->
             <tr>
-                <td rowspan="2" align="center" bgcolor="#e6e6fa"><b>Початок кар'єри</b></td>
-                <td align="center">1985</td>
+                <td rowspan="2" class="period-header period-start">Початок кар'єри</td>
+                <td class="center-text">1985</td>
                 <td>Приєднання до PWL</td>
                 <td>Почав працювати в студії продюсерів Stock Aitken Waterman як "tea boy" (помічник), навчаючись
                     процесу запису.</td>
             </tr>
             <tr>
-                <td align="center">1987</td>
+                <td class="center-text">1987</td>
                 <td>Сингл "Never Gonna Give You Up"</td>
                 <td>Реліз дебютного синглу, який миттєво став хітом №1 у Британії та США.</td>
             </tr>
 
             <!-- Success -->
             <tr>
-                <td rowspan="3" align="center" bgcolor="#ffdead"><b>Пік популярності</b></td>
-                <td align="center">1987</td>
+                <td rowspan="3" class="period-header period-peak">Пік популярності</td>
+                <td class="center-text">1987</td>
                 <td>Альбом "Whenever You Need Somebody"</td>
                 <td>Дебютний альбом, який розійшовся тиражем понад 15 мільйонів копій.</td>
             </tr>
             <tr>
-                <td align="center">1988</td>
+                <td class="center-text">1988</td>
                 <td>Сингл "Together Forever"</td>
                 <td>Другий хіт №1 у США, закріпивши успіх Естлі за океаном.</td>
             </tr>
             <tr>
-                <td align="center">1991</td>
+                <td class="center-text">1991</td>
                 <td>Альбом "Free"</td>
                 <td>Спроба змінити стиль на більш дорослий поп. Включає хіт "Cry for Help".</td>
             </tr>
 
             <!-- Retirement -->
             <tr>
-                <td align="center" bgcolor="#f0e68c"><b>Пауза</b></td>
-                <td align="center">1993 - 2000</td>
+                <td class="period-header period-pause">Пауза</td>
+                <td class="center-text">1993 - 2000</td>
                 <td>Відхід з музики</td>
                 <td>Рік вирішив присвятити себе сім'ї та вихованню доньки, відійшовши від публічного життя.</td>
             </tr>
 
             <!-- Return -->
             <tr>
-                <td rowspan="3" align="center" bgcolor="#98fb98"><b>Повернення</b></td>
-                <td align="center">2007</td>
+                <td rowspan="3" class="period-header period-return">Повернення</td>
+                <td class="center-text">2007</td>
                 <td>Інтернет-феномен "Rickrolling"</td>
                 <td>Вірусне відео з кліпом "Never Gonna Give You Up" зробило його знову популярним серед нового
                     покоління.</td>
             </tr>
             <tr>
-                <td align="center">2016</td>
+                <td class="center-text">2016</td>
                 <td>Альбом "50"</td>
                 <td>Перший альбом за десятиліття, який досяг №1 у Великій Британії. Усі пісні написані самим Ріком.</td>
             </tr>
             <tr>
-                <td align="center">2019</td>
+                <td class="center-text">2019</td>
                 <td>Альбом "Best of Me"</td>
                 <td>Збірка найкращих хітів та нові версії старих пісень.</td>
             </tr>
@@ -88,11 +100,10 @@
 
         <br>
         <hr>
-        <p align="center">
+        <p class="center-text">
             &copy; 2025. Дискографія та Біографія.
         </p>
 
-    </font>
-</body>
+    </body>
 
 </html>
