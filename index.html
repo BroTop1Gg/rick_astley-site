@@ -8,86 +8,96 @@
 </head>
 
 <body>
-    <h1>Рік Естлі (Rick Astley)</h1>
-    <p class="center-text"><i>Британський співак, музикант і автор пісень</i></p>
+    <header>
+        <h1>Рік Естлі (Rick Astley)</h1>
+        <p class="center-text"><i>Британський співак, музикант і автор пісень</i></p>
+    </header>
 
-    <p class="center-text">
+    <nav class="center-text">
         <a href="index.html">Головна</a> |
         <a href="biography.html">Біографія</a> |
         <a href="gallery.html">Галерея</a>
-    </p>
+    </nav>
 
     <hr>
 
-    <!-- Quick Links (Anchors) -->
-    <p class="center-text">
+    <nav class="center-text">
         <a href="#about">Про виконавця</a> |
         <a href="#achievements">Досягнення</a> |
         <a href="#map_section">Інтерактивна карта</a>
-    </p>
+    </nav>
 
-    <!-- CSS3 Flexbox Layout with Cards -->
-    <h2 id="about">Біографічна довідка</h2>
-    <div class="cards-container">
-        <div class="info-card">
-            <h3>Хто він?</h3>
-            <p>
-                <b>Річард Пол Естлі</b> (Richard Paul Astley) народився 6 лютого 1966 року. Він став всесвітньо відомим
-                у 1980-х роках завдяки своїм танцювальним поп-хітам.
+    <main>
+        <!-- CSS3 Flexbox Layout with Cards -->
+        <section id="about">
+            <h2>Біографічна довідка</h2>
+            <div class="cards-container">
+                <article class="info-card">
+                    <h3>Хто він?</h3>
+                    <p>
+                        <b>Річард Пол Естлі</b> (Richard Paul Astley) народився 6 лютого 1966 року. Він став всесвітньо
+                        відомим у 1980-х роках завдяки своїм танцювальним поп-хітам.
+                    </p>
+                </article>
+
+                <article class="info-card">
+                    <h3>Унікальний стиль</h3>
+                    <p>
+                        Його унікальний глибокий баритон зробив його пісні впізнаваними з перших нот. Він поєднує
+                        енергію диско з душевністю соулу.
+                    </p>
+                </article>
+
+                <article class="info-card">
+                    <h3>Головний хіт</h3>
+                    <p>
+                        Пісня <b>"Never Gonna Give You Up"</b> стала феноменом, очоливши чарти в 25 країнах і породивши
+                        інтернет-мем "Rickrolling".
+                    </p>
+                </article>
+            </div>
+        </section>
+
+        <section id="achievements">
+            <h2>Ключові досягнення</h2>
+            <div class="cards-container">
+                <div class="info-card">
+                    <h3>40 Мільйонів</h3>
+                    <p class="center-text">Проданих записів по всьому світу.</p>
+                </div>
+                <div class="info-card">
+                    <h3>Рекордсмен</h3>
+                    <p class="center-text">Перші 8 синглів у Топ-10 британського чарту.</p>
+                </div>
+                <div class="info-card">
+                    <h3>MTV Legend</h3>
+                    <p class="center-text">"Найкращий виконавець в історії" (2008).</p>
+                </div>
+            </div>
+        </section>
+
+        <hr>
+
+        <section id="map_section">
+            <h2 class="center-text">Навігація сайтом</h2>
+            <p class="center-text">
+                <img src="img/map.jpg" alt="Навігаційна карта: Біографія та Фотогалерея" usemap="#nav_map" width="600">
             </p>
-        </div>
-
-        <div class="info-card">
-            <h3>Унікальний стиль</h3>
-            <p>
-                Його унікальний глибокий баритон зробив його пісні впізнаваними з перших нот. Він поєднує енергію диско
-                з душевністю соулу.
-            </p>
-        </div>
-
-        <div class="info-card">
-            <h3>Головний хіт</h3>
-            <p>
-                Пісня <b>"Never Gonna Give You Up"</b> стала феноменом, очоливши чарти в 25 країнах і породивши
-                інтернет-мем "Rickrolling".
-            </p>
-        </div>
-    </div>
-
-    <h2 id="achievements">Ключові досягнення</h2>
-    <div class="cards-container">
-        <div class="info-card">
-            <h3>40 Мільйонів</h3>
-            <p class="center-text">Проданих записів по всьому світу.</p>
-        </div>
-        <div class="info-card">
-            <h3>Рекордсмен</h3>
-            <p class="center-text">Перші 8 синглів у Топ-10 британського чарту.</p>
-        </div>
-        <div class="info-card">
-            <h3>MTV Legend</h3>
-            <p class="center-text">"Найкращий виконавець в історії" (2008).</p>
-        </div>
-    </div>
+            <map name="nav_map">
+                <area shape="rect" coords="0,0,300,400" href="biography.html" alt="Біографія">
+                <area shape="rect" coords="301,0,600,400" href="gallery.html" alt="Фотогалерея">
+            </map>
+        </section>
+    </main>
 
     <hr>
 
-    <h2 id="map_section">Навігація сайтом</h2>
-    <p class="center-text">
-        <img src="img/map.jpg" alt="Навігаційна карта: Біографія та Фотогалерея" usemap="#nav_map" width="600">
-    </p>
-    <map name="nav_map">
-        <!-- Left half goes to Biography -->
-        <area shape="rect" coords="0,0,300,400" href="biography.html" alt="Біографія">
-        <!-- Right half goes to Gallery -->
-        <area shape="rect" coords="301,0,600,400" href="gallery.html" alt="Фотогалерея">
-    </map>
-
-    <hr>
-    <p class="center-text">
-        &copy; 2025. Фан-сайт Ріка Естлі.<br>
-        Зв'язатися з автором: <a href="mailto:fan@rickastley.com">fan@rickastley.com</a>
-    </p>
+    <footer>
+        <p class="center-text">
+            &copy; 2025. Фан-сайт Ріка Естлі.<br>
+            Зв'язатися з автором: <a href="mailto:fan@rickastley.com">fan@rickastley.com</a>
+        </p>
+    </footer>
 </body>
 
 </html>
