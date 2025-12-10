@@ -16,7 +16,3 @@
 - HTML5 (Semantic tags)
 - CSS3 (Flexbox, Gradients, Shadows, Transitions)
 - Git & GitHub Pages
-
-## Автор
-Студент групи [ВАША ГРУПА]
-[ВАШЕ ІМ'Я]
